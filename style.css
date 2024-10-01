@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: Raleway;
+  overflow: hidden;
+}
+
+.superheader {
+  height: 40px;
+  background-color: #313235;
+  display: flex;
+}
+
+.superheader p {
+  color: white;
+  margin: 12px 50px;
+  margin-right: auto;
+}
+
+.superheader button {
+  background-color: #313235;
+  color: #c9cecf;
+  margin: 4px 10px;
+  border: none;
+}
+
+button img {
+  width: 24px;
+  height: 24px;
+  margin-right: 50px;
+}
+
+.searchIDD {
+  height: 26px;
+  margin: 8px 0;
+  background-color: #313235;
+  border-bottom: 1px solid #c9cecf;
+}
+
+.searchIDD i {
+  color: white;
+}
+
+#searchID {
+  background-color: #313235;
+  border: none;
+  margin: 0 10px;
+}
+.navHeader {
+  height: 72px;
+  border: 1px solid #c9cecf;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo {
+  font-weight: bolder;
+  font-size: 1.5rem;
+  margin-left: 50px;
+  flex-basis: 350px;
+}
+
+.navlinks {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.main {
+  /* border: solid; */
+  margin-top: 50px;
+  margin-left: 10px;
+  display: flex;
+}
+
+.bar {
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+
+.bar p {
+  margin-left: 50px;
+  margin-right: 180px;
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.44px;
+  text-align: left;
+  color: #b3b3b3;
+}
+
+.bar span {
+  font-weight: bold;
+  font-family: Raleway;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  margin-right: auto;
+}
+
+.sort label {
+  font-family: Raleway;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.44px;
+  text-align: left;
+  color: #919191;
+  margin-right: 10px;
+}
+
+#sort-type {
+  background-color: #f2f3f3;
+  height: 42px;
+  border: none;
+  padding: 10px 10px;
+  margin-right: 60px;
+  padding-right: 10px;
+  border-radius: 8px;
+  font-weight: 550;
+  color: #313235;
+  font-size: 15px;
+}
+
+.main nav {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 340px;
+  width: 248px;
+  margin: 0 40px;
+  /* height: 0px; */
+  /* position: sticky; */
+}
+
+.main nav a {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 32px;
+  /* text-align: left; */
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-left: 20px;
+  overflow: auto;
+  flex-grow: 1;
+  user-select:none;
+}
+
+.card {
+  position: relative;
+  width: 344px;
+  height: 370px;
+}
+
+.card img {
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 312px;
+}
+
+/* .card span {
+  
+} */
+
+.name {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+
+.name2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 10px 0;
+}
+
+h5 {
+  font-weight: bold;
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18.78px;
+  text-align: left;
+  /* margin-right: auto; */
+}
+
+.name span {
+  font-family: Raleway;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18.78px;
+  color: #313235;
+  /* text-align: right; */
+}
+
+.card > span {
+  color: #60666c;
+}
+
+.strike{
+    text-decoration: line-through;
+}
+
+span.strike-value{
+    color: red;
+    margin-left: auto;
+    font-weight: bold;
+}
+
+.sticker {
+  position: absolute;
+  width: 118px;
+  height: 32px;
+  right: -10px;
+  font-size: 14px;
+  top: 18px;
+  background-color: #6868d9;
+  text-align: center;
+  padding: 7px;
+  color: white;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.sale {
+  width: auto;
+  background-color: #c5295d;
+}
