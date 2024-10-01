@@ -34,6 +34,7 @@ button img {
   width: 24px;
   height: 24px;
   margin-right: 50px;
+  mix-blend-mode:exclusion;
 }
 
 .searchIDD {
@@ -160,15 +161,19 @@ button img {
   flex-wrap: wrap;
   gap: 30px;
   margin-left: 20px;
+  margin-right: 50px;
   overflow: auto;
-  flex-grow: 1;
   user-select:none;
+  padding-right:  20px;
 }
 
 .card {
   position: relative;
-  width: 344px;
+  min-width: 300px;
+  width: 340px;
+  max-width: 450px;
   height: 370px;
+    flex : 1;
 }
 
 .card img {
